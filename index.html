@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johan Flores — Portafolio</title>
+  <meta name="description" content="Portafolio de Johan Eduardo Flores: desarrollo web, ingeniería de prompts y diseño gráfico.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">Mi Portafolio...</a>
+
+      <section class="hmb-button" id="hmbButton" role="button" tabindex="0"
+                aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+
+      <nav id="mainNav" class="hidden">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-avatar">
+        <img src="assets/ImageJohancito.png" alt="Johan Eduardo Flores">
+      </div>
+      <div class="hero-text">
+        <h1>¡Hola! Soy Johan Eduardo Flores.</h1>
+        <p class="hero-lead">
+          Decodifico datos, escribo código y diseño experiencias. Como futuro Ingeniero en
+          Ciencias de la Computación y estratega digital, fusiono el poder de la Inteligencia
+          Artificial y el desarrollo web con una creatividad visual sin límites. Descubre cómo
+          mi perfil híbrido entre tecnología y diseño gráfico puede llevar tu próximo proyecto
+          empresarial al siguiente nivel.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+          <a href="#contacto" class="btn btn-outline">Contáctame</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="sobre-mi" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-l-8">
+            <h2>Ingeniería, Datos y Diseño.</h2>
+            <p>
+              Soy Johan Eduardo Flores, Ingeniero en Ciencias de la Computación en formación por
+              la UNICAH, operando desde el Distrito Central. Mi visión profesional orbita en la
+              intersección exacta entre la innovación tecnológica y el diseño de alto impacto.
+              Como un apasionado de la Inteligencia Artificial y el inmenso valor estratégico de
+              la información, he cultivado un perfil multidisciplinario que desafía lo
+              convencional. Por un lado, aporto el rigor analítico: domino el desarrollo web, la
+              ingeniería de prompts y el análisis de datos empresariales. Por otro, integro una
+              profunda sensibilidad estética y narrativa visual a través de mi trayectoria
+              paralela como diseñador gráfico y editor de video freelance. Esta dualidad me
+              convierte en un arquitecto de soluciones integrales. No solo construyo sistemas
+              funcionales; diseño productos digitales que comunican y conectan. Mi objetivo
+              fundamental es seguir expandiendo mis fronteras de conocimiento para aplicar esta
+              sinergia técnico-creativa en la resolución de los desafíos más complejos e
+              innovadores del mundo de los negocios.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+      <div class="container">
+        <h2> Proyectos...</h2>
+        <div class="row">
+          <div class="col-12 col-m-6 col-l-6">
+            <article class="project-card">
+              <img src="assets/tramade.png" alt="Interfaz de inicio de sesión del sistema Tramade">
+              <div class="project-card-body">
+                <h3>Sistema Gestor de Ventas para Tramade</h3>
+                <p>
+                  Aplicación de escritorio moderna con interfaz gráfica para el control de
+                  inicio de sesión y gestión empresarial.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-m-6 col-l-6">
+            <article class="project-card">
+              <img src="assets/panah.jpg" alt="Página de inicio del sitio web de PANAH">
+              <div class="project-card-body">
+                <h3>Página Web Informativa para PANAH</h3>
+                <p>
+                  Plataforma web solidaria diseñada para conectar personas y facilitar el proceso
+                  de donaciones y eventos para familias hondureñas.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-l-5 contact-info">
+            <h2>Trabajemos juntos</h2>
+            <p>
+              ¿Tienes un proyecto en mente? Escríbeme y conversemos sobre cómo llevarlo al
+              siguiente nivel.
+            </p>
+            <p class="contact-phone">
+              <a href="tel:+50432424479">+504 3242-4479</a>
+            </p>
+          </div>
+          <div class="col-12 col-l-7">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-field">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <span class="field-error">Este campo es obligatorio.</span>
+              </div>
+              <div class="form-field">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo">
+                <span class="field-error">Este campo es obligatorio.</span>
+              </div>
+              <div class="form-field">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+                <span class="field-error">Este campo es obligatorio.</span>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Diseñado y desarrollado por Johan Flores &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
